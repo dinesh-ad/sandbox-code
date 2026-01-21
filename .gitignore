@@ -1,0 +1,31 @@
+# Ignore everything
+/*
+
+# Except sql_live_suggestion
+!sql_live_suggestion/
+
+# And this .gitignore itself
+!.gitignore
+
+# Python bytecode (in any tracked folder)
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Environment files
+**/.env
+**/.env.local
+
+# Virtual environments
+**/.venv/
+**/venv/
+
+# IDE
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
